@@ -1,0 +1,89 @@
+{
+  "status": "ok",
+  "totalResults": 8,
+  "articles": [
+    {
+      "source": { "id": "google-news-in", "name": "Google News (India)" },
+      "author": "CNBCTV18",
+      "title": "PM Modi US Visit LIVE Updates | PM Modi performs yoga asanas at UN headquarters - CNBCTV18",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMifGh0dHBzOi8vd3d3LmNuYmN0djE4LmNvbS93b3JsZC9wbS1uYXJlbmRyYS1tb2RpLXVzLXZpc2l0LWxpdmUtdXBkYXRlcy11bml0ZWQtc3RhdGVzLXlvZ2EtZGF5LWpvZS1iaWRlbi1jb25ncmVzcy0xNjk3NTU0MS5odG3SAYABaHR0cHM6Ly93d3cuY25iY3R2MTguY29tL3dvcmxkL3BtLW5hcmVuZHJhLW1vZGktdXMtdmlzaXQtbGl2ZS11cGRhdGVzLXVuaXRlZC1zdGF0ZXMteW9nYS1kYXktam9lLWJpZGVuLWNvbmdyZXNzLTE2OTc1NTQxLmh0bS9hbXA?oc=5",
+      "urlToImage": "",
+      "publishedAt": "2023-06-21T15:27:51+00:00",
+      "content": ""
+    },
+    {
+      "source": { "id": "il-sole-24-ore", "name": "Il Sole 24 Ore" },
+      "author": "",
+      "title": "Musk: «significativo» investimento di Tesla in India",
+      "description": "«Sono fiducioso che Tesla sarà in India e lo faremo non appena possibile», ha detto Musk dopo l’incontro con il premier indiano Narendra Modi",
+      "url": "https://www.ilsole24ore.com/art/musk-significativo-investimento-tesla-india-AEXEB7mD",
+      "urlToImage": "https://i2.res.24o.it/images2010/2023/06/AEXEB7mD/images/125c5160-103f-11ee-a2ef-ac1e38c90e02-fotohome0.jpg",
+      "publishedAt": "2023-06-21T14:36:01Z",
+      "content": "La collaborazione su tecnologie critiche ed emergenti tra aziende statunitensi e indiane e la riduzione delle barriere normative che ostacolano il commercio in aree strategiche sono temi fondamentali… [+1688 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Niharika Mandhana, Newley Purnell",
+      "title": "Modi’s Vision for India Rests On Six Giant Companies",
+      "description": "Conglomerates are executing projects with a scale and speed that have eluded India in the past.  ‘Era of great concentration.’",
+      "url": "https://www.wsj.com/articles/modi-india-economy-reliance-industries-adani-group-tata-d2c4f89e?mod=hp_lead_pos4",
+      "urlToImage": "https://images.wsj.net/im-803697/social",
+      "publishedAt": "2023-06-21T14:29:00Z",
+      "content": ""
+    },
+    {
+      "source": { "id": "google-news-in", "name": "Google News (India)" },
+      "author": "Bloomberg",
+      "title": "Global Money Flocks to India as Modi Hobnobs With Musk, Dalio - Bloomberg",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMib2h0dHBzOi8vd3d3LmJsb29tYmVyZy5jb20vbmV3cy9hcnRpY2xlcy8yMDIzLTA2LTIxL2dsb2JhbC1tb25leS1mbG9ja3MtdG8taW5kaWEtYXMtbW9kaS1ob2Jub2JzLXdpdGgtbXVzay1kYWxpb9IBAA?oc=5",
+      "urlToImage": "",
+      "publishedAt": "2023-06-21T11:34:00+00:00",
+      "content": ""
+    },
+    {
+      "source": { "id": "cnn", "name": "CNN" },
+      "author": "",
+      "title": "Opinion: Biden is taking a calculated risk on India’s Modi | CNN",
+      "description": "Though the US and India had already been on good terms, the planned state visit signals that US leaders are interested in propelling a relationship that could rearrange the global chessboard, writes Frida Ghitis.",
+      "url": "https://www.cnn.com/2023/06/21/opinions/biden-us-modi-india-state-visit-ghitis/index.html",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230621090523-01-modi-biden.jpg?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2023-06-21T10:44:14.337Z",
+      "content": "Editors Note: Frida Ghitis, a former CNN producer and correspondent, is a world affairs columnist. She is a weekly opinion contributor to CNN, a contributing columnist to The Washington Post and a co… [+6287 chars]"
+    },
+    {
+      "source": { "id": "info-money", "name": "InfoMoney" },
+      "author": "Equipe InfoMoney",
+      "title": "Ibovespa hoje: acompanhe o que movimenta Dólar, Juros e Bolsa Ao Vivo",
+      "description": "Acompanhe o que movimenta a bolsa, ações, dólar, juros e commodities nos negócios do pregão desta quarta-feira (21).",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-21062023/",
+      "urlToImage": "https://www.infomoney.com.br/wp-content/uploads/2022/07/queda5.jpg?fit=1920%2C1080&quality=70&strip=all",
+      "publishedAt": "2023-06-21T09:45:17Z",
+      "content": ""
+    },
+    {
+      "source": { "id": "goteborgs-posten", "name": "Göteborgs-Posten" },
+      "author": "Olle Råde,Jonas Lindstedt",
+      "title": "Hamodi, 13, fick sitt årskort indraget på Liseberg",
+      "description": "Trettonåriga Hamodi hade just aktiverat sitt guldpass på Liseberg. När det blev stökigt i en kö kallades vakter till platsen. Plötsligt tog de med honom och tre av hans vänner och förklarade att deras årskort var indragna. – Det känns orättvist, för jag hade …",
+      "url": "http://www.gp.se/nyheter/g%C3%B6teborg/hamodi-13-fick-sitt-%C3%A5rskort-indraget-p%C3%A5-liseberg-1.100366652",
+      "urlToImage": "https://www.gp.se/image/policy:1.100366617:1686009612/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a",
+      "publishedAt": "2023-05-24T10:48:43Z",
+      "content": ""
+    },
+    {
+      "source": { "id": "the-times-of-india", "name": "The Times of India" },
+      "author": "TIMESOFINDIA.COM",
+      "title": "'Inappropriate': PM Modi objects to 'protocol break' during meeting; Delhi CM expresses regret",
+      "description": "India News: Delhi chief minister Arvind Kejriwal on Friday faced flak for sharing a live telecast of an \"in-house\" meeting with Prime Minister Narendra Modi where",
+      "url": "http://timesofindia.indiatimes.com/india/delhi-cmo-expresses-regret-over-televised-address-during-meeting-with-pm-modi/articleshow/82213159.cms",
+      "urlToImage": "https://static.toiimg.com/thumb/msid-82213159,width-1070,height-580,imgsize-134672,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+      "publishedAt": "2021-04-23T03:54:00Z",
+      "content": ""
+    }
+  ]
+}
