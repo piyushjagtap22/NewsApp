@@ -20,23 +20,23 @@ const Navbar =() => {
                                     <Link className="nav-link" to="/">Home</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/Business">Business</Link>
+                                    <Link className="nav-link" to="/World">World</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/Entertainment">Entertainment</Link>
+                                    <Link className="nav-link" to="/Business">Business</Link>
                                 </li>
                                 
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/Health">Health</Link>
+                                    <Link className="nav-link" to="/Entertainment">Entertainment</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/Science">Science</Link>
+                                    <Link className="nav-link" to="/Science&Technology">Science and Techology</Link>
                                 </li>
                                 <li className="nav-item">
                                     <Link className="nav-link" to="/Sports">Sports</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/Technology">Technology</Link>
+                                    <Link className="nav-link" to="/Cryptocurrency">Cryptocurrency</Link>
                                 </li>
                             </ul>
                         </div>
