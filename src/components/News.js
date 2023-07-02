@@ -7,48 +7,30 @@ import InfiniteScroll from 'react-infinite-scroll-component';
 export default function News(props) {
 
   const [articles, setArticles] = useState([]);
+  const [totalArticles, setTotalArticles] = useState([]);
   const [page, setPage] = useState(1);
   const [loading, setLoading] = useState(false);
   const [totalResults, setTotalResults] = useState(0);
 
-  
-
-
-
   useEffect(() => {
-    updateNews();
-document.title = ` ${props.category.charAt(0).toUpperCase()}${props.category.slice(1)} - News Dog`;
+    if (articles.length === 0 && totalResults !== 0) {
+      updateNews()
+    }
+    if (totalResults === 0) {
+      updateNews()
+    }
 
-  }, [])
-
+    document.title = ` ${props.category.charAt(0).toUpperCase()}${props.category.slice(1)} - News Dog`;
+   
+  }, [articles, totalResults])
 
   const fetchMoreData = () => {
-    
+
     setLoading(true);
 
-
-    var requestOptions = {
-      method: 'GET',
-      redirect: 'follow'
-    };
-
-    fetch(`https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page+1}&pageSize=${props.pageSize}&language=en`, requestOptions)
-      .then(response => response.json())
-      .then(result => {
-        
-        console.log('API response:', result); // Log the response to see if data is received
-        setArticles(
-          articles.concat(result.articles)
-        )
-        setTotalResults(result.totalResults)
-        setLoading(true);
-
-      })
-      .catch(error => {
-        console.log('API error:', error); // Log any errors that occur during the API request
-        setLoading(false);
-      });
-      setPage(page + 1);
+    setPage(page + 1);
+    setArticles(articles.concat(totalArticles.slice(articles.length, (page + 1) * props.pageSize)));
+    setLoading(false);
   };
 
 
@@ -60,32 +42,31 @@ document.title = ` ${props.category.charAt(0).toUpperCase()}${props.category.sli
       redirect: 'follow'
     }
     props.setProgress(20)
-    fetch(`https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page}&pageSize=${props.pageSize}&language=en`, requestOptions)
+    fetch(`https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page}&language=en`, requestOptions)
       .then(response => response.json())
       .then(result => {
+        setTotalResults(result.articles.length)
+
         props.setProgress(60)
-        setArticles(result.articles);
+        setTotalArticles(result.articles)
+        props.setProgress(80)
+        setArticles(result.articles.slice(articles.length, props.pageSize));
+        props.setProgress(90)
         setLoading(false)
-        setTotalResults(result.totalResults)
-
-
         props.setProgress(100)
+      }).then(() => {
       })
       .catch(error => console.log('error', error))
 
 
+      
   }
 
-
-  // Check if articles is undefined or empty
-  if (!articles || articles.length === 0) {
-    return <Spinner />;
-  }
   return (
     <>
       <div>
-        <h2 className="text-center" style={{ margin: '35px 0px', marginTop: '90px' }}>News Dog - Top {props.category.charAt(0).toUpperCase()+props.category.slice(1)} Headines</h2>
 
+        <h2 className="text-center" style={{ margin: '35px 0px', marginTop: '90px' }}>News Dog - Top {props.category.charAt(0).toUpperCase() + props.category.slice(1)} Headines</h2>
 
         <InfiniteScroll
           dataLength={articles.length}
@@ -105,15 +86,13 @@ document.title = ` ${props.category.charAt(0).toUpperCase()}${props.category.sli
           </div>
         </InfiniteScroll>
 
-
       </div>
-
     </>
   )
 }
 
 News.propTypes = {
-  country: 'us',
+  country: 'in',
   pageSize: 8,
   category: 'general'
 }
@@ -123,6 +102,5 @@ News.defaultProps = {
   pageSize: PropTypes.number,
   category: PropTypes.string
 }
-
 
 
